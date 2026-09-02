@@ -1,0 +1,113 @@
+{
+  "profiles": {
+    "mazen": {
+      "name": "mazen",
+      "age": 20,
+      "preferences": {},
+      "tracking": {
+        "weight_log": [
+          {
+            "date": "2026-08-31",
+            "weight_kg": 70.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-31",
+            "weight_kg": 70.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-01",
+            "weight_kg": 70.0,
+            "note": ""
+          }
+        ],
+        "workout_log": [
+          {
+            "date": "2026-08-31",
+            "type": "push day",
+            "note": ""
+          },
+          {
+            "date": "2026-09-01",
+            "type": "pull day",
+            "note": ""
+          },
+          {
+            "date": "2026-09-02",
+            "type": "leg day",
+            "note": ""
+          }
+        ],
+        "prs": {
+          "bench press": {
+            "weight": 40.0,
+            "unit": "kg",
+            "reps": 9,
+            "date": "2026-08-31",
+            "note": ""
+          }
+        },
+        "streak": {
+          "current": 3,
+          "longest": 3,
+          "last_log_date": "2026-09-02"
+        },
+        "calc_profile": {
+          "weight_kg": 70.0,
+          "height_cm": 180.0,
+          "sex": "male",
+          "activity_level": "very_active",
+          "goal": "bulk"
+        },
+        "meal_log": [
+          {
+            "date": "2026-09-01",
+            "estimate": "\n<think>\nHere's a thinking process that leads to the suggested response:\n\n1.  **Analyze the Request:**\n    *   **User:** Mazen, age 20.\n    *   **Goal:** Identify food in the image, provide an estimated calorie count and macro breakdown (protein, carbs, fat), and offer coaching feedback.\n    *   **Image Content:** A plate with grilled chicken breasts (two pieces), a side of what looks like potato ",
+            "calories": 300
+          }
+        ],
+        "measurements_log": [
+          {
+            "date": "2026-09-02",
+            "note": ""
+          },
+          {
+            "date": "2026-09-02",
+            "note": "",
+            "arms_cm": 12.0
+          }
+        ],
+        "progress_photos": [],
+        "weekly_recaps": [
+          {
+            "date": "2026-09-02",
+            "text": "**Headline:** 3‑day power‑up – you’re building a solid foundation!  \n\n**What you did**  \n- Logged a full push, pull, and leg session – 3 workouts this week.  \n- Hit a new bench‑press PR: 40 kg × 9 reps.  \n- Stayed on top of your weight with 3 weigh‑ins, all at 70 kg.  \n- Analyzed one meal photo to keep nutrition on track.  \n\n**Consistency**  \nYour streak is 3 days, matching your personal best – great job keeping the momentum!  \n\n**Next week**  \n1. Add a 4th workout or a short cardio session to round out the week.  \n2. Try bumping the bench‑press set to 10 reps or adding a light accessory move to keep progressing.  \n\nKeep up the great work, Mazen! 🚀",
+            "stats": {
+              "workouts": 3,
+              "weigh_ins": 3,
+              "new_prs": 1,
+              "meals": 1,
+              "measurements": 0
+            },
+            "timestamp": "2026-09-02T13:30:02.857797"
+          }
+        ]
+      },
+      "saved_plan": {
+        "goal": "muscle gain",
+        "days_per_week": 5,
+        "equipment": "full gym",
+        "level": "intermediate",
+        "plan": "**5‑Day Intermediate Muscle‑Gain Split**  \n*(Full‑Gym Equipment – Bench, Barbell, Cable, Machines, Dumbbells, Pull‑up bar, etc.)*  \n\n---\n\n### General Warm‑Up (All Days)  \n- **5–10 min** light cardio (treadmill jog, rowing, or bike)  \n- **Dynamic mobility** (arm circles, leg swings, hip circles, band pull‑apart)  \n- **Warm‑up sets** for the first exercise of the day: 2 light sets (50 % of working weight) before moving to working sets.  \n\n### Safety Reminder (All Days)  \n- **Form first** – never sacrifice technique for weight.  \n- **Use a spotter** on heavy lifts (bench press, squat, overhead press).  \n- **Progressive overload** – add weight only when you can complete all reps with good form.  \n- **Rest** 60–90 sec between sets for hypertrophy; 2–3 min for heavy compound lifts.  \n- **Hydrate & listen** – if you feel sharp pain or extreme fatigue, stop and reassess.  \n\n---\n\n## Day 1 – Chest & Triceps  \n| Exercise | Sets | Reps | Notes |\n|----------|------|------|-------|\n| Bench Press | 4 | 8–10 | Heavy compound; keep feet flat, back slightly arched. |\n| Incline Dumbbell Press | 3 | 10–12 | Target upper chest; elbows at ~45°. |\n| Cable Fly (or Pec Deck) | 3 | 12–15 | Full stretch at bottom, squeeze at top. |\n| Dips (weighted if possible) | 3 | 8–10 | Lean forward to hit chest; keep knees bent if too hard. |\n| Triceps Pushdown (rope) | 3 | 10–12 | Full extension; avoid flaring elbows. |\n| Overhead Triceps Extension (cable) | 3 | 12–15 | Keep elbows tucked; full range. |\n\n---\n\n## Day 2 – Back & Biceps  \n| Exercise | Sets | Reps | Notes |\n|----------|------|------|-------|\n| Deadlift | 4 | 6–8 | Heavy; focus on hip hinge, keep back neutral. |\n| Pull‑ups (weighted if possible) | 3 | 8–10 | Full range; use assisted machine if needed. |\n| Bent‑Over Barbell Row | 3 | 10–12 | Keep torso parallel, pull to lower ribs. |\n| Seated Cable Row | 3 | 12–15 | Squeeze shoulder blades together. |\n| Face‑Pulls | 3 | 15–20 | Great for rear delts & rotator cuff health. |\n| EZ‑Bar Curl | 3 | 10–12 | Keep elbows stationary; full contraction at top. |\n| Hammer Curl | 3 | 12–15 | Neutral grip; focus on forearm engagement. |\n\n---\n\n## Day 3 – Legs (Quad‑Focused)  \n| Exercise | Sets | Reps | Notes |\n|----------|------|------|-------|\n| Back Squat | 4 | 6–8 | Heavy; maintain depth below parallel. |\n| Front Squat | 3 | 8–10 | Emphasizes quads; keep elbows high. |\n| Leg Press | 3 | 10–12 | Push through mid‑foot; avoid locking knees. |\n| Walking Lunges (dumbbells) | 3 | 12–15 per leg | Keep torso upright; 90° knee bend. |\n| Leg Extension | 3 | 12–15 | Slow eccentric, pause at bottom. |\n| Standing Calf Raise | 4 | 15–20 | Full stretch at bottom, full contraction at top. |\n\n---\n\n## Day 4 – Shoulders & Traps  \n| Exercise | Sets | Reps | Notes |\n|----------|------|------|-------|\n| Overhead Press (Barbell) | 4 | 6–8 | Keep core tight, avoid arching. |\n|",
+        "created_at": "2026-08-31T12:56:02.358564"
+      },
+      "grocery_list": {
+        "text": "**One‑Week Grocery List for an Active Adult (Balanced, Healthy, and Versatile)**  \n*(Quantities are approximate; adjust based on your exact appetite, family size, and dietary preferences.)*\n\n---\n\n## 1. Produce  \n| Item | Approx. Quantity | Notes |\n|------|------------------|-------|\n| **Leafy Greens** | 2–3 large bags (spinach, kale, mixed salad greens) | 7–10 servings |\n| **Cruciferous Veggies** | 1 head broccoli, 1 head cauliflower, 2–3 carrots | 5–7 servings |\n| **All‑Season Veggies** | 2 bell peppers, 2 cucumbers, 2 tomatoes, 1 zucchini, 1 eggplant | 7–10 servings |\n| **Root & Tubers** | 4 medium sweet potatoes, 3 regular potatoes | 4–5 servings |\n| **Fruits** | 7 apples, 7 bananas, 1–2 cups berries (fresh or frozen), 1 orange | 7–10 servings |\n| **Avocado** | 3–4 | 3–4 servings |\n| **Onions & Garlic** | 2 onions, 1 bulb garlic | 5–7 servings |\n| **Herbs** | Fresh basil, cilantro, parsley | 1 bunch each |\n| **Lemon/Lime** | 3–4 | For dressings & flavor |\n\n---\n\n## 2. Protein  \n| Item | Approx. Quantity | Notes |\n|------|------------------|-------|\n| **Poultry** | 4 chicken breasts, 2 thighs (bone‑in) | 4–6 servings |\n| **Fish & Seafood** | 2 salmon fillets, 1 pound shrimp | 3–4 servings |\n| **Lean Red Meat** | 1 lb ground turkey or lean beef | 2–3 servings |\n| **Plant‑Based Protein** | 1 block firm tofu, 1 can chickpeas, 1 can black beans | 4–5 servings |\n| **Eggs** | 12 | 12 servings |\n| **Nuts & Seeds** | 1 cup almonds, 1 cup pumpkin seeds | 2–3 servings |\n| **Nut Butter** | 1 jar peanut or almond butter | 2–3 servings |\n\n---\n\n## 3. Dairy (or Dairy Alternatives)  \n| Item | Approx. Quantity | Notes |\n|------|------------------|-------|\n| **Milk / Plant Milk** | 1 gallon dairy milk or 1–2 cartons oat/almond milk | 7–10 servings |\n| **Greek Yogurt** | 4–5 individual tubs (plain) | 4–5 servings |\n| **Cheese** | 1 block mozzarella or cheddar | 3–4 servings |\n| **Butter / Ghee** | 1 stick | 2–3 servings |\n| **Cottage Cheese** | 1 tub | 2–3 servings |\n\n---\n\n## 4. Pantry & Grains  \n| Item | Approx. Quantity | Notes |\n|------|------------------|-------|\n| **Whole Grains** | 1 lb brown rice, 1 lb quinoa, 1 lb whole‑wheat pasta | 5–7 servings |\n| **Oats** | 1 lb steel‑cut or rolled oats | 5–7 servings |\n| **Bread** | 1 loaf whole‑grain or sprouted | 7–",
+        "created_at": "2026-08-31T10:44:03.355893"
+      },
+      "subscription": null,
+      "last_updated": "2026-09-02T14:15:25.525166"
+    }
+  }
+}

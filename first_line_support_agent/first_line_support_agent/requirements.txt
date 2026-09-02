@@ -1,0 +1,10 @@
+streamlit
+groq
+python-dotenv
+pypdf
+scikit-learn
+wikipedia
+duckduckgo-search
+fpdf2
+matplotlib
+pandas

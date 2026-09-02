@@ -1,0 +1,408 @@
+/* ============================================================
+   FIRST-LINE SUPPORT AI AGENT — PROFESSIONAL DARK GLASS THEME
+   Background photo by Mohamed Fareed on Unsplash (Unsplash License)
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --brand-primary: #22d3ee;
+    --brand-secondary: #6366f1;
+    --brand-gradient: linear-gradient(135deg, #22d3ee 0%, #6366f1 100%);
+
+    /* FIX: message bubble is now a dark glass, not light glass,
+       so the light (#f8fafc) text stays readable against it */
+    --glass-bg: rgba(255, 255, 255, 0.10);
+    --glass-bg-strong: rgba(8, 12, 22, 0.62);
+    --glass-border: rgba(255, 255, 255, 0.25);
+
+    --text-main: #f8fafc;
+    --text-muted: #cbd5e1;
+    --sidebar-bg: rgba(4, 7, 16, 0.55);
+    --sidebar-text: #f1f5f9;
+}
+
+/* ---------- GLOBAL ---------- */
+
+html, body, [class*="css"] {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Put the photo on the outermost real element */
+html, body {
+    min-height: 100vh;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(4, 7, 16, 0.55) 0%,
+            rgba(4, 7, 16, 0.38) 45%,
+            rgba(4, 7, 16, 0.62) 100%
+        ),
+        url('https://images.unsplash.com/photo-1637430308606-86576d8fef3c?fm=jpg&q=80&w=2400&auto=format&fit=crop')
+        center center / cover no-repeat;
+    background-attachment: scroll;
+}
+
+/* Transparent Streamlit wrappers */
+.stApp,
+[data-testid="stAppViewContainer"],
+[data-testid="stMain"],
+[data-testid="stHeader"],
+[data-testid="stToolbar"],
+[data-testid="stBottom"],
+[data-testid="stBottom"] > div,
+[data-testid="stBottomBlockContainer"],
+[data-testid="stChatInputContainer"],
+.stChatFloatingInputContainer,
+.stChatInputContainer,
+footer,
+section.main,
+.main,
+.block-container {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+label,
+span,
+div {
+    color: var(--text-main);
+}
+
+[data-testid="stChatMessage"] p,
+[data-testid="stChatMessage"] li,
+[data-testid="stVerticalBlockBorderWrapper"] p,
+[data-testid="stVerticalBlockBorderWrapper"] label {
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* ---------- GLASS PANEL ---------- */
+
+.glass-panel {
+    background: var(--glass-bg);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--glass-border);
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+}
+
+/* ---------- CUSTOM HEADER BANNER ---------- */
+
+.agent-header {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(34, 211, 238, 0.55) 0%,
+            rgba(99, 102, 241, 0.55) 100%
+        );
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    padding: 30px 34px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.45);
+    border: 1px solid var(--glass-border);
+}
+
+.agent-header h1 {
+    color: #ffffff;
+    font-size: 1.9rem;
+    font-weight: 800;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.agent-header p {
+    color: rgba(255, 255, 255, 0.95);
+    margin: 8px 0 0 0;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+}
+
+/* ---------- SIDEBAR (FROSTED GLASS) ---------- */
+
+[data-testid="stSidebar"] {
+    background: var(--sidebar-bg);
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+    border-right: 1px solid var(--glass-border);
+}
+
+[data-testid="stSidebar"] * {
+    color: var(--sidebar-text) !important;
+}
+
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3 {
+    color: #ffffff !important;
+    font-weight: 700;
+}
+
+[data-testid="stSidebar"] hr {
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+[data-testid="stSidebar"] .stTextArea textarea,
+[data-testid="stSidebar"] .stTextInput input {
+    background: rgba(255, 255, 255, 0.08) !important;
+    border: 1px solid var(--glass-border) !important;
+    color: #ffffff !important;
+    border-radius: 10px;
+}
+
+[data-testid="stSidebar"] .stButton > button {
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    color: #ffffff !important;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+[data-testid="stSidebar"] .stButton > button:hover {
+    background: var(--brand-gradient);
+    border-color: transparent;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(34, 211, 238, 0.35);
+}
+
+/* ---------- MAIN BUTTONS ---------- */
+
+.stButton > button {
+    border-radius: 10px;
+    font-weight: 600;
+    border: 1px solid var(--glass-border);
+    background: var(--brand-gradient);
+    color: #ffffff;
+    padding: 0.5rem 1.1rem;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 16px rgba(34, 211, 238, 0.35);
+}
+
+.stButton > button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(99, 102, 241, 0.45);
+}
+
+/* ---------- CHAT MESSAGES (GLASS BUBBLES) ---------- */
+
+[data-testid="stChatMessage"] {
+    background: var(--glass-bg-strong);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-radius: 16px;
+    border: 1px solid var(--glass-border);
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.3);
+}
+
+[data-testid="stChatMessage"] p,
+[data-testid="stChatMessage"] span,
+[data-testid="stChatMessage"] label {
+    color: #f8fafc !important;
+}
+
+/* ---------- ACTION ICON ROW (trash / thumbs up / thumbs down / clipboard) ----------
+   Hidden by default. Revealed only when the message is right-clicked,
+   via the .show-actions class toggled by the script at the bottom of this file. */
+
+[data-testid="stChatMessage"] [data-testid="stHorizontalBlock"] {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+}
+
+[data-testid="stChatMessage"].show-actions [data-testid="stHorizontalBlock"] {
+    display: flex;
+    opacity: 1;
+}
+
+/* ---------- CHAT INPUT (SOLID BLACK) ---------- */
+
+[data-testid="stChatInput"] {
+    background: #000000 !important;
+    background-color: #000000 !important;
+    border-radius: 16px !important;
+    border: 1px solid rgba(255, 255, 255, 0.25) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.55) !important;
+}
+
+[data-testid="stChatInput"] > div {
+    background: #000000 !important;
+    background-color: #000000 !important;
+    border-radius: 16px !important;
+}
+
+[data-testid="stChatInput"] textarea {
+    background: #000000 !important;
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    caret-color: #ffffff !important;
+    border-radius: 14px !important;
+    border: none !important;
+    outline: none !important;
+}
+
+[data-testid="stChatInput"] textarea:focus {
+    background: #000000 !important;
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+[data-testid="stChatInput"] textarea::placeholder {
+    color: #aaaaaa !important;
+    -webkit-text-fill-color: #aaaaaa !important;
+    opacity: 1 !important;
+}
+
+[data-testid="stChatInput"] button {
+    background: transparent !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+[data-testid="stChatInput"] button:hover {
+    background: rgba(255, 255, 255, 0.10) !important;
+    color: #ffffff !important;
+}
+
+/* ---------- INPUTS (MAIN AREA, GLASS) ---------- */
+
+.stTextInput > div > div > input,
+.stNumberInput > div > div > input,
+.stTextArea textarea {
+    border-radius: 10px !important;
+    border: 1px solid var(--glass-border) !important;
+    background: var(--glass-bg) !important;
+    color: #f8fafc !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/* ---------- STATUS / "THINKING" BOX ---------- */
+
+[data-testid="stStatusWidget"],
+div[data-testid="stExpander"] {
+    background: var(--glass-bg);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-radius: 14px;
+    border: 1px solid var(--glass-border);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.streamlit-expanderHeader {
+    background: transparent;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #f8fafc !important;
+}
+
+/* ---------- ALERTS / INFO / SUCCESS ---------- */
+
+div[data-testid="stAlert"] {
+    background: var(--glass-bg) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    color: #f8fafc !important;
+}
+
+div[data-testid="stAlert"] p {
+    color: #f8fafc !important;
+}
+
+/* ---------- CAPTIONS ---------- */
+
+[data-testid="stCaptionContainer"] {
+    color: #e2e8f0 !important;
+}
+
+/* ---------- SCROLLBAR ---------- */
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(226, 232, 240, 0.5);
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(226, 232, 240, 0.8);
+}
+
+/* ---------- FILE UPLOADER (GLASS) ---------- */
+
+[data-testid="stFileUploader"] {
+    background: var(--glass-bg);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-radius: 14px;
+    padding: 10px;
+    border: 1px dashed var(--glass-border);
+}
+
+[data-testid="stFileUploader"] section {
+    background: transparent !important;
+}
+
+[data-testid="stFileUploader"] button {
+    background: var(--glass-bg-strong) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border) !important;
+    color: #f8fafc !important;
+    border-radius: 8px !important;
+}
+
+[data-testid="stFileUploader"] small {
+    color: var(--text-muted) !important;
+}
+
+/* ---------- SELECT BOX (GLASS) ---------- */
+
+.stSelectbox > div > div {
+    border-radius: 10px !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border) !important;
+    color: #f8fafc !important;
+}
+
+/* ---------- BORDERED CONTAINERS ---------- */
+
+[data-testid="stVerticalBlockBorderWrapper"] {
+    background: var(--glass-bg-strong);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 20px !important;
+    border: 1px solid var(--glass-border) !important;
+    padding: 6px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* ---------- SOURCE BADGE SPACING ---------- */
+
+[data-testid="stChatMessage"] p {
+    margin-bottom: 4px;
+}

@@ -1,0 +1,95 @@
+2026-08-26 13:34:50,287 - __main__ - INFO - Loading knowledge base from C:\Users\Qcm_S\PycharmProjects\first_line_support_agent\knowledge_base
+2026-08-26 13:34:50,287 - __main__ - INFO - Found 2 PDF files
+2026-08-26 13:34:50,288 - __main__ - INFO - Processing: Complete_AI_Fitness_Nutrition_Coach_Knowledge_Base.pdf
+2026-08-26 13:34:50,362 - __main__ - INFO - Extracted 26813 characters
+2026-08-26 13:34:50,364 - __main__ - INFO - Created 44 chunks
+2026-08-26 13:34:50,364 - __main__ - INFO - Processing: First_Line_IT_Support_Knowledge_Base.pdf
+2026-08-26 13:34:50,398 - __main__ - INFO - Extracted 11774 characters
+2026-08-26 13:34:50,399 - __main__ - INFO - Created 19 chunks
+2026-08-26 13:34:50,400 - __main__ - INFO - Total chunks in knowledge base: 63
+2026-08-26 13:34:50,420 - __main__ - INFO - Knowledge base index built successfully
+2026-08-26 13:36:51,042 - __main__ - INFO - Loading knowledge base from C:\Users\Qcm_S\PycharmProjects\first_line_support_agent\knowledge_base
+2026-08-26 13:36:51,042 - __main__ - INFO - Found 2 PDF files
+2026-08-26 13:36:51,042 - __main__ - INFO - Processing: Complete_AI_Fitness_Nutrition_Coach_Knowledge_Base.pdf
+2026-08-26 13:36:51,111 - __main__ - INFO - Extracted 26813 characters
+2026-08-26 13:36:51,112 - __main__ - INFO - Created 44 chunks
+2026-08-26 13:36:51,113 - __main__ - INFO - Processing: First_Line_IT_Support_Knowledge_Base.pdf
+2026-08-26 13:36:51,150 - __main__ - INFO - Extracted 11774 characters
+2026-08-26 13:36:51,151 - __main__ - INFO - Created 19 chunks
+2026-08-26 13:36:51,151 - __main__ - INFO - Total chunks in knowledge base: 63
+2026-08-26 13:36:51,173 - __main__ - INFO - Knowledge base index built successfully
+2026-08-26 13:37:03,558 - __main__ - INFO - Loading knowledge base from C:\Users\Qcm_S\PycharmProjects\first_line_support_agent\knowledge_base
+2026-08-26 13:37:03,558 - __main__ - INFO - Found 2 PDF files
+2026-08-26 13:37:03,558 - __main__ - INFO - Processing: Complete_AI_Fitness_Nutrition_Coach_Knowledge_Base.pdf
+2026-08-26 13:37:03,627 - __main__ - INFO - Extracted 26813 characters
+2026-08-26 13:37:03,629 - __main__ - INFO - Created 44 chunks
+2026-08-26 13:37:03,629 - __main__ - INFO - Processing: First_Line_IT_Support_Knowledge_Base.pdf
+2026-08-26 13:37:03,663 - __main__ - INFO - Extracted 11774 characters
+2026-08-26 13:37:03,664 - __main__ - INFO - Created 19 chunks
+2026-08-26 13:37:03,664 - __main__ - INFO - Total chunks in knowledge base: 63
+2026-08-26 13:37:03,685 - __main__ - INFO - Knowledge base index built successfully
+2026-08-26 13:37:18,629 - __main__ - INFO - Loading knowledge base from C:\Users\Qcm_S\PycharmProjects\first_line_support_agent\knowledge_base
+2026-08-26 13:37:18,629 - __main__ - INFO - Found 2 PDF files
+2026-08-26 13:37:18,630 - __main__ - INFO - Processing: Complete_AI_Fitness_Nutrition_Coach_Knowledge_Base.pdf
+2026-08-26 13:37:18,702 - __main__ - INFO - Extracted 26813 characters
+2026-08-26 13:37:18,703 - __main__ - INFO - Created 44 chunks
+2026-08-26 13:37:18,703 - __main__ - INFO - Processing: First_Line_IT_Support_Knowledge_Base.pdf
+2026-08-26 13:37:18,739 - __main__ - INFO - Extracted 11774 characters
+2026-08-26 13:37:18,740 - __main__ - INFO - Created 19 chunks
+2026-08-26 13:37:18,741 - __main__ - INFO - Total chunks in knowledge base: 63
+2026-08-26 13:37:18,759 - __main__ - INFO - Knowledge base index built successfully
+2026-08-26 13:39:11,378 - __main__ - INFO - Loading knowledge base from C:\Users\Qcm_S\PycharmProjects\first_line_support_agent\knowledge_base
+2026-08-26 13:39:11,378 - __main__ - INFO - Found 2 PDF files
+2026-08-26 13:39:11,379 - __main__ - INFO - Processing:  Complete_AI_Fitness_Nutrition_Coach_Knowledge_Base.pdf
+2026-08-26 13:39:11,448 - __main__ - INFO - Extracted 26813 characters
+2026-08-26 13:39:11,450 - __main__ - INFO - Created 44 chunks
+2026-08-26 13:39:11,450 - __main__ - INFO - Processing:  First_Line_IT_Support_Knowledge_Base.pdf
+2026-08-26 13:39:11,485 - __main__ - INFO - Extracted 11774 characters
+2026-08-26 13:39:11,486 - __main__ - INFO - Created 19 chunks
+2026-08-26 13:39:11,487 - __main__ - INFO - Total chunks in knowledge base:  63
+2026-08-26 13:39:11,506 - __main__ - INFO - Knowledge base index built successfully
+2026-08-26 13:40:07,421 - __main__ - INFO - Wikipedia search for 'hello' found 2 results
+2026-08-26 13:40:17,043 - __main__ - ERROR - WIKIPEDIA PAGE ERROR (Hello Kitty):  Expecting value: line 1 column 1 (char 0)
+2026-08-26 13:40:18,987 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=hello&limit=1 502
+2026-08-26 13:40:19,398 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=hello 200
+2026-08-26 13:40:19,917 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&titles=Hello&explaintext=0&exintro=0&redirects=1 200
+2026-08-26 13:40:21,251 - primp - INFO - response: https://www.startpage.com/ 200
+2026-08-26 13:40:22,121 - primp - INFO - response: https://www.startpage.com/sp/search 200
+2026-08-26 13:40:25,518 - primp - INFO - response: https://search.yahoo.com/search;_ylt=nEEZHD9W0RzzokPpguCt26Hi;_ylu=czovfRxZar83lA2gTDnJbjciyWA7PbQUebw-LbXrBavejYc?p=hello 200
+2026-08-26 13:40:28,044 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 13:43:24,233 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=%D9%84%D8%B3%D9%87+%D9%85%D8%AA%D9%85%D8%B1%D9%86%D8%AA%D8%B4+&limit=1 200
+2026-08-26 13:43:24,234 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%D9%84%D8%B3%D9%87%20%D9%85%D8%AA%D9%85%D8%B1%D9%86%D8%AA%D8%B4%20 200
+2026-08-26 13:43:25,271 - primp - INFO - response: https://www.startpage.com/ 200
+2026-08-26 13:43:26,011 - primp - INFO - response: https://www.startpage.com/sp/search 200
+2026-08-26 13:43:27,393 - primp - INFO - response: https://search.brave.com/search?q=%D9%84%D8%B3%D9%87+%D9%85%D8%AA%D9%85%D8%B1%D9%86%D8%AA%D8%B4+&source=web 200
+2026-08-26 13:43:28,378 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 13:49:20,077 - __main__ - INFO - Loading knowledge base from C:\Users\Qcm_S\PycharmProjects\first_line_support_agent\knowledge_base
+2026-08-26 13:49:20,078 - __main__ - INFO - Found 2 PDF files
+2026-08-26 13:49:20,078 - __main__ - INFO - Processing:  Complete_AI_Fitness_Nutrition_Coach_Knowledge_Base.pdf
+2026-08-26 13:49:20,152 - __main__ - INFO - Extracted 26813 characters
+2026-08-26 13:49:20,155 - __main__ - INFO - Created 44 chunks
+2026-08-26 13:49:20,155 - __main__ - INFO - Processing:  First_Line_IT_Support_Knowledge_Base.pdf
+2026-08-26 13:49:20,191 - __main__ - INFO - Extracted 11774 characters
+2026-08-26 13:49:20,192 - __main__ - INFO - Created 19 chunks
+2026-08-26 13:49:20,192 - __main__ - INFO - Total chunks in knowledge base:  63
+2026-08-26 13:49:20,217 - __main__ - INFO - Knowledge base index built successfully
+2026-08-26 15:04:16,081 - __main__ - INFO - Loading knowledge base from C:\Users\Qcm_S\PycharmProjects\first_line_support_agent\knowledge_base
+2026-08-26 15:04:16,082 - __main__ - INFO - Found 2 PDF files
+2026-08-26 15:04:16,082 - __main__ - INFO - Processing:  Complete_AI_Fitness_Nutrition_Coach_Knowledge_Base.pdf
+2026-08-26 15:04:16,156 - __main__ - INFO - Extracted 26813 characters
+2026-08-26 15:04:16,158 - __main__ - INFO - Created 44 chunks
+2026-08-26 15:04:16,158 - __main__ - INFO - Processing:  First_Line_IT_Support_Knowledge_Base.pdf
+2026-08-26 15:04:16,195 - __main__ - INFO - Extracted 11774 characters
+2026-08-26 15:04:16,196 - __main__ - INFO - Created 19 chunks
+2026-08-26 15:04:16,196 - __main__ - INFO - Total chunks in knowledge base:  63
+2026-08-26 15:04:16,215 - __main__ - INFO - Knowledge base index built successfully
+2026-08-26 15:10:26,464 - __main__ - INFO - Loading knowledge base from C:\Users\Qcm_S\PycharmProjects\first_line_support_agent\knowledge_base
+2026-08-26 15:10:26,464 - __main__ - INFO - Found 2 PDF files
+2026-08-26 15:10:26,466 - __main__ - INFO - Processing:  Complete_AI_Fitness_Nutrition_Coach_Knowledge_Base.pdf
+2026-08-26 15:10:26,546 - __main__ - INFO - Extracted 26813 characters
+2026-08-26 15:10:26,551 - __main__ - INFO - Created 44 chunks
+2026-08-26 15:10:26,551 - __main__ - INFO - Processing:  First_Line_IT_Support_Knowledge_Base.pdf
+2026-08-26 15:10:26,596 - __main__ - INFO - Extracted 11774 characters
+2026-08-26 15:10:26,597 - __main__ - INFO - Created 19 chunks
+2026-08-26 15:10:26,597 - __main__ - INFO - Total chunks in knowledge base:  63
+2026-08-26 15:10:26,631 - __main__ - INFO - Knowledge base index built successfully
